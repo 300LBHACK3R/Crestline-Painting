@@ -1,0 +1,42 @@
+import Link from "next/link";
+
+export default function HomeAboutPreview() {
+  return (
+    <section className="section">
+      <div className="container">
+        <div className="split-panel">
+          <div className="split-panel__content">
+            <div className="section-intro__eyebrow">About Crestline</div>
+            <h2 className="section-intro__title">
+              Built on craftsmanship, integrity, and over two decades of proven results.
+            </h2>
+            <p className="section-intro__copy">
+              Founded in 2003, Crestline Painting Ltd. has grown from a family-run operation into
+              a trusted full-scale painting company serving custom homes, multi-family
+              developments, commercial properties, strata complexes, and restoration work across
+              British Columbia.
+            </p>
+            <Link href="/about" className="card__link">
+              Read More
+            </Link>
+          </div>
+
+          <div className="stats-card">
+            <div className="stats-card__item">
+              <strong>2003</strong>
+              <span>Founded</span>
+            </div>
+            <div className="stats-card__item">
+              <strong>20+</strong>
+              <span>Years of experience</span>
+            </div>
+            <div className="stats-card__item">
+              <strong>BC</strong>
+              <span>Serving projects across British Columbia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

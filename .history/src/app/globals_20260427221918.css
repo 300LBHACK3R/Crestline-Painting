@@ -1,0 +1,310 @@
+/* =========================================
+   ROOT
+========================================= */
+
+:root {
+  --bg: #f3f6fb;
+  --white: #ffffff;
+
+  --text: #0f172a;
+  --text-soft: #475569;
+
+  --line: rgba(15,23,42,0.08);
+
+  --accent: #d6a300;
+
+  --radius-lg: 24px;
+  --radius-md: 18px;
+
+  --shadow-sm: 0 10px 25px rgba(15,23,42,0.06);
+  --shadow-md: 0 20px 60px rgba(15,23,42,0.12);
+
+  --container: 1240px;
+}
+
+/* =========================================
+   BASE
+========================================= */
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container {
+  width: min(calc(100% - 40px), var(--container));
+  margin: auto;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+/* =========================================
+   HEADER (RESTORED)
+========================================= */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(243,246,251,0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.site-header__bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 34px;
+}
+
+.site-header__logo {
+  height: 72px;
+}
+
+.site-header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-header__link {
+  padding: 0 14px;
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.site-header__link--active {
+  color: var(--accent);
+}
+
+.site-header__cta {
+  border: 2px solid var(--accent);
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-weight: 800;
+}
+
+/* =========================================
+   HERO (FULLY RESTORED)
+========================================= */
+
+.page-hero-base {
+  position: relative;
+  overflow: hidden;
+}
+
+.page-hero-base__bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.page-hero-base__container {
+  position: relative;
+  min-height: 520px;
+  padding: 120px 80px 80px;
+  display: flex;
+  align-items: center;
+}
+
+.page-hero-base__content {
+  max-width: 780px;
+}
+
+.page-hero-base__eyebrow {
+  font-size: 13px;
+  font-weight: 700;
+  color: #2f6fa3;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.page-hero-base__title {
+  font-size: clamp(3rem,5vw,5rem);
+  line-height: 0.95;
+  font-weight: 800;
+}
+
+.page-hero-base__copy {
+  margin-top: 18px;
+  font-size: 16px;
+  color: #334155;
+  font-weight: 500;
+  text-shadow: 0 1px 6px rgba(255,255,255,0.6);
+}
+
+/* =========================================
+   SERVICES PAGE (RESTORED)
+========================================= */
+
+.services-page {
+  padding-top: 80px;
+}
+
+.services-proof-strip__grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.services-proof-strip__card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+}
+
+/* =========================================
+   PROJECTS GRID (RESTORED)
+========================================= */
+
+.project-showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 24px;
+}
+
+.project-showcase-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.3s ease;
+}
+
+.project-showcase-card:hover {
+  transform: translateY(-6px);
+}
+
+.project-showcase-card__image {
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+}
+
+.project-showcase-card__body {
+  padding: 24px;
+}
+
+/* =========================================
+   SERVICE CARDS (RESTORED)
+========================================= */
+
+.service-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.service-card__media {
+  height: 280px;
+}
+
+.service-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.service-card__body {
+  padding: 24px;
+}
+
+/* =========================================
+   CONTACT FORM (FIXED — IMPORTANT)
+========================================= */
+
+.contact-form {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 16px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  grid-column: span 2;
+  min-height: 120px;
+}
+
+.contact-form button {
+  margin-top: 10px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  border: 2px solid var(--accent);
+  background: transparent;
+  font-weight: 700;
+}
+
+/* =========================================
+   FOOTER (RESTORED)
+========================================= */
+
+.site-footer {
+  padding: 40px 0;
+}
+
+.site-footer__shell {
+  background: var(--white);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: var(--shadow-sm);
+}
+
+.site-footer__grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 24px;
+}
+
+.site-footer__logo {
+  width: 120px;
+}
+
+.site-footer__links {
+  display: grid;
+  gap: 8px;
+  color: var(--text-soft);
+}
+
+.site-footer__bottom {
+  margin-top: 20px;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 860px) {
+  .project-showcase-grid,
+  .services-proof-strip__grid,
+  .site-footer__grid,
+  .contact-form {
+    grid-template-columns: 1fr;
+  }
+
+  .page-hero-base__container {
+    padding: 80px 20px;
+  }
+}

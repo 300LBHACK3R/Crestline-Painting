@@ -1,0 +1,42 @@
+export type ProjectItem = {
+  title: string;
+  category: string;
+  location: string;
+  description: string;
+  image: string;
+};
+
+export const projects: ProjectItem[] = [
+  {
+    title: "Commercial Office Building",
+    category: "Commercial",
+    location: "Vernon, BC",
+    description:
+      "Large-scale commercial project presentation aligned with the kind of builder and property work Crestline wants to attract.",
+    image: "/images/projects/South-Surrey-Commercial-Paint-Exterior-Painting-Crestline-Painting-Construction.jpg",
+  },
+  {
+    title: "Modern Tower Development",
+    category: "Multi-Family",
+    location: "Vancouver, BC",
+    description:
+      "Modern multi-residential tower work representing larger-scale development and elevated project presentation.",
+    image: "/images/projects/Oxford-Properties-Remodel-ConstructionPainting-Exterior-Painting-Crestline-Painting.jpg",
+  },
+  {
+    title: "Luxury Custom Home",
+    category: "Custom Homes",
+    location: "Kelowna, BC",
+    description:
+      "High-end residential work showcasing premium finishes, upscale design, and custom-home visual appeal.",
+    image: "/images/projects/W42Residence-Custom-Interior-Crestline-Painting-Construction-Exterior-Painting.jpg",
+  },
+  {
+    title: "Langley Strata Repaint",
+    category: "Strata",
+    location: "Langley, BC",
+    description:
+      "Exterior repainting and presentation-focused work for a townhouse-style strata environment.",
+    image: "/images/projects/Vancouver-Painting-Crestline-Painting-Construction-Interior-Exterior-Strata.jpg",
+  },
+];
