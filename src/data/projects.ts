@@ -39,7 +39,7 @@ export const projectCategories: ProjectCategory[] = [
     description:
       "Explore Crestline Painting custom home projects, including detailed interiors, refined exterior finishes, trim, feature areas, and premium residential painting work.",
     image:
-      "/images/services/W42Residence-Custom-Interior-Crestline-Painting-Construction-Exterior-Painting.jpg",
+      "/images/projects/custom-homes/Altamont-Custom-Homes-Interior-Painting-Crestline-Construction.jpg",
   },
   {
     slug: "multi-family",
@@ -49,7 +49,7 @@ export const projectCategories: ProjectCategory[] = [
     description:
       "Explore Crestline Painting multi-family projects, including apartment buildings, townhouse developments, shared spaces, corridors, exteriors, and large residential painting scopes.",
     image:
-      "/images/services/Apartment-Kelowna-Painting-Building-ConstructionPainting-Crestline-Painting.jpg",
+      "/images/projects/multi-family/Brickwater-Village-4-Buildings-Crestline-Painting-Exterior1.jpg",
   },
   {
     slug: "strata",
@@ -75,59 +75,376 @@ export const projectCategories: ProjectCategory[] = [
 
 export const projects: ProjectItem[] = [
   {
-    id: "w42-residence",
-    slug: "w42-residence",
-    title: "W42 Residence",
+    id: "altamont-custom-homes",
+    slug: "altamont-custom-homes",
+    title: "Altamont Custom Homes",
     category: "custom-homes",
     categoryTitle: "Custom Homes",
     location: "British Columbia",
     type: "Custom Home",
     description:
-      "A detailed custom home painting project focused on refined interior finishes, clean presentation, and high-end residential workmanship.",
+      "A custom home painting project focused on detailed interior preparation, refined finish quality, and clean residential presentation.",
     coverImage:
-      "/images/services/W42Residence-Custom-Interior-Crestline-Painting-Construction-Exterior-Painting.jpg",
+      "/images/projects/custom-homes/Altamont-Custom-Homes-Interior-Painting-Crestline-Construction.jpg",
     images: [
       {
-        src: "/images/services/W42Residence-Custom-Interior-Crestline-Painting-Construction-Exterior-Painting.jpg",
-        alt: "W42 Residence custom home painting by Crestline Painting",
+        src: "/images/projects/custom-homes/Altamont-Custom-Homes-Interior-Painting-Crestline-Construction.jpg",
+        alt: "Altamont custom home painting project by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Altamont-Custom-Homes-Interior-Painting-Crestline-Construction0.jpg",
+        alt: "Altamont custom home interior painting by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Altamont-Custom-Homes-Interior-Painting-Crestline-Construction1.jpg",
+        alt: "Altamont custom home painting detail by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Altamont-Custom-Homes-Interior-Painting-Crestline-Construction2.jpg",
+        alt: "Altamont custom home finished painting work by Crestline Painting",
       },
     ],
   },
   {
-    id: "kelowna-apartment-project",
-    slug: "kelowna-apartment-project",
-    title: "Kelowna Apartment Project",
-    category: "multi-family",
-    categoryTitle: "Multi-Family",
-    location: "Kelowna, BC",
-    type: "Multi-Family",
+    id: "andover-mansion-project",
+    slug: "andover-mansion-project",
+    title: "Andover Mansion Project",
+    category: "custom-homes",
+    categoryTitle: "Custom Homes",
+    location: "British Columbia",
+    type: "Custom Home",
     description:
-      "A multi-family painting project involving coordinated production work, consistent finishes, and organized execution across a larger residential property.",
+      "A large custom residence project involving interior and exterior painting work with a focus on professional preparation, finish quality, and high-end presentation.",
     coverImage:
-      "/images/services/Apartment-Kelowna-Painting-Building-ConstructionPainting-Crestline-Painting.jpg",
+      "/images/projects/custom-homes/Andover-Mansion-Project-Construction-Painting-Interior-Exterior-CrestlinePainting.jpg",
     images: [
       {
-        src: "/images/services/Apartment-Kelowna-Painting-Building-ConstructionPainting-Crestline-Painting.jpg",
-        alt: "Kelowna apartment multi-family painting project by Crestline Painting",
+        src: "/images/projects/custom-homes/Andover-Mansion-Project-Construction-Painting-Interior-Exterior-CrestlinePainting.jpg",
+        alt: "Andover Mansion custom home painting project by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Andover-Mansion-Project-Construction-Painting-Interior-Exterior-CrestlinePainting0.jpg",
+        alt: "Andover Mansion interior and exterior painting by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Andover-Mansion-Project-Construction-Painting-Interior-Exterior-CrestlinePainting1.jpg",
+        alt: "Andover Mansion custom home painting detail by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Andover-Mansion-Project-Construction-Painting-Interior-Exterior-CrestlinePainting2.jpg",
+        alt: "Andover Mansion residential painting work by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Andover-Mansion-Project-Construction-Painting-Interior-Exterior-CrestlinePainting3.jpg",
+        alt: "Andover Mansion finished painting work by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Andover-Mansion-Project-Construction-Painting-Interior-Exterior-CrestlinePainting4.jpg",
+        alt: "Andover Mansion premium residential painting by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Andover-Mansion-Project-Construction-Painting-Interior-Exterior-CrestlinePainting5.jpg",
+        alt: "Andover Mansion custom residence painting by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Andover-Mansion-Project-Construction-Painting-Interior-Exterior-CrestlinePainting6.jpg",
+        alt: "Andover Mansion exterior and interior painting by Crestline Painting",
       },
     ],
   },
   {
-    id: "brick-water-village",
-    slug: "brick-water-village",
-    title: "Brick Water Village",
+    id: "farmleigh-farm",
+    slug: "farmleigh-farm",
+    title: "Farmleigh Farm",
+    category: "custom-homes",
+    categoryTitle: "Custom Homes",
+    location: "British Columbia",
+    type: "Custom Home",
+    description:
+      "A custom property painting project completed with attention to interior and exterior surfaces, project coordination, and clean professional results.",
+    coverImage:
+      "/images/projects/custom-homes/Farmleigh-Farm-British-Properties-Interior-Exterior-Painting-Crestline-Painting.jpg",
+    images: [
+      {
+        src: "/images/projects/custom-homes/Farmleigh-Farm-British-Properties-Interior-Exterior-Painting-Crestline-Painting.jpg",
+        alt: "Farmleigh Farm custom home painting project by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Farmleigh-Farm-British-Properties-Interior-Exterior-Painting-Crestline-Painting0.jpg",
+        alt: "Farmleigh Farm interior and exterior painting by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Farmleigh-Farm-British-Properties-Interior-Exterior-Painting-Crestline-Painting1.jpg",
+        alt: "Farmleigh Farm painting detail by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Farmleigh-Farm-British-Properties-Interior-Exterior-Painting-Crestline-Painting2.jpg",
+        alt: "Farmleigh Farm residential painting work by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Farmleigh-Farm-British-Properties-Interior-Exterior-Painting-Crestline-Painting3.jpg",
+        alt: "Farmleigh Farm finished painting project by Crestline Painting",
+      },
+    ],
+  },
+  {
+    id: "millstream-project",
+    slug: "millstream-project",
+    title: "Millstream Project",
+    category: "custom-homes",
+    categoryTitle: "Custom Homes",
+    location: "British Columbia",
+    type: "Custom Home",
+    description:
+      "A custom residential painting project focused on interior and exterior finishes, careful surface preparation, and a clean completed presentation.",
+    coverImage:
+      "/images/projects/custom-homes/Millstream-Project-Interior-Exterior-Painting-Construction-Crestline-Painting.WEBP",
+    images: [
+      {
+        src: "/images/projects/custom-homes/Millstream-Project-Interior-Exterior-Painting-Construction-Crestline-Painting.WEBP",
+        alt: "Millstream custom home painting project by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Millstream-Project-Interior-Exterior-Painting-Construction-Crestline-Painting0.WEBP",
+        alt: "Millstream interior and exterior painting by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Millstream-Project-Interior-Exterior-Painting-Construction-Crestline-Painting1.WEBP",
+        alt: "Millstream residential painting detail by Crestline Painting",
+      },
+    ],
+  },
+  {
+    id: "nelson-residence",
+    slug: "nelson-residence",
+    title: "Nelson Residence",
+    category: "custom-homes",
+    categoryTitle: "Custom Homes",
+    location: "British Columbia",
+    type: "Custom Home",
+    description:
+      "A residential custom home painting project focused on interior and exterior finishes, clean execution, and professional presentation.",
+    coverImage:
+      "/images/projects/custom-homes/Nelson-Residence-Construction-Crestline-Painting-Interior-Exterior-Painting.jpeg",
+    images: [
+      {
+        src: "/images/projects/custom-homes/Nelson-Residence-Construction-Crestline-Painting-Interior-Exterior-Painting.jpeg",
+        alt: "Nelson Residence custom home painting project by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Nelson-Residence-Construction-Crestline-Painting-Interior-Exterior-Painting0.jpeg",
+        alt: "Nelson Residence interior and exterior painting by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Nelson-Residence-Construction-Crestline-Painting-Interior-Exterior-Painting1.jpeg",
+        alt: "Nelson Residence painting detail by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Nelson-Residence-Construction-Crestline-Painting-Interior-Exterior-Painting2.jpeg",
+        alt: "Nelson Residence residential painting work by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/Nelson-Residence-Construction-Crestline-Painting-Interior-Exterior-Painting3.jpeg",
+        alt: "Nelson Residence finished painting work by Crestline Painting",
+      },
+    ],
+  },
+  {
+    id: "southborough-estate",
+    slug: "southborough-estate",
+    title: "SouthBorough Estate",
+    category: "custom-homes",
+    categoryTitle: "Custom Homes",
+    location: "British Columbia",
+    type: "Custom Home",
+    description:
+      "A custom estate painting project completed with attention to finish quality, detailed preparation, and strong residential presentation.",
+    coverImage:
+      "/images/projects/custom-homes/SouthBorough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior.jpeg",
+    images: [
+      {
+        src: "/images/projects/custom-homes/SouthBorough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior.jpeg",
+        alt: "SouthBorough Estate custom home painting project by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/SouthBorough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior0.jpg",
+        alt: "SouthBorough Estate custom home painting detail by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/SouthBorough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior (2).jpg",
+        alt: "SouthBorough Estate interior painting by Crestline Painting",
+      },
+      {
+        src: "/images/projects/custom-homes/SouthBorough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior (3).jpg",
+        alt: "SouthBorough Estate finished painting work by Crestline Painting",
+      },
+    ],
+  },
+  {
+    id: "brickwater-village",
+    slug: "brickwater-village",
+    title: "Brickwater Village",
     category: "multi-family",
     categoryTitle: "Multi-Family",
     location: "British Columbia",
     type: "Multi-Family",
     description:
-      "A large residential painting project focused on exterior and shared-space presentation for a multi-family environment.",
+      "A multi-family exterior painting project completed across a larger residential property, with a focus on consistent finish quality, building presentation, and organized project execution.",
     coverImage:
-      "/images/services/Brick-Water-Village-Exterior-Interior-Custom-Paint-Job-Crestline-Painting.jpg",
+      "/images/projects/multi-family/Brickwater-Village-4-Buildings-Crestline-Painting-Exterior1.jpg",
     images: [
       {
-        src: "/images/services/Brick-Water-Village-Exterior-Interior-Custom-Paint-Job-Crestline-Painting.jpg",
-        alt: "Brick Water Village painting project by Crestline Painting",
+        src: "/images/projects/multi-family/Brickwater-Village-4-Buildings-Crestline-Painting-Exterior1.jpg",
+        alt: "Brickwater Village multi-family exterior painting by Crestline Painting",
+      },
+      {
+        src: "/images/projects/multi-family/Brickwater-Village-4-Buildings-Crestline-Painting-Exterior2.jpg",
+        alt: "Brickwater Village exterior painting project by Crestline Painting",
+      },
+      {
+        src: "/images/projects/multi-family/Brickwater-Village-4-Buildings-Crestline-Painting-Exterior3.jpg",
+        alt: "Brickwater Village residential building painting by Crestline Painting",
+      },
+    ],
+  },
+  {
+    id: "edge-on-edge-maple-ridge",
+    slug: "edge-on-edge-maple-ridge",
+    title: "Edge on Edge Maple Ridge",
+    category: "multi-family",
+    categoryTitle: "Multi-Family",
+    location: "Maple Ridge, BC",
+    type: "Multi-Family",
+    description:
+      "A multi-family painting project focused on exterior presentation, clean finish work, and organized painting support for a residential building environment.",
+    coverImage:
+      "/images/projects/multi-family/edge-on-edge-3-maple-ridge-Crestline-Painting.jpg",
+    images: [
+      {
+        src: "/images/projects/multi-family/edge-on-edge-3-maple-ridge-Crestline-Painting.jpg",
+        alt: "Edge on Edge Maple Ridge painting project by Crestline Painting",
+      },
+      {
+        src: "/images/projects/multi-family/edge-on-edge-3-maple-ridge-Crestline-Painting0.jpg",
+        alt: "Edge on Edge Maple Ridge multi-family painting by Crestline Painting",
+      },
+    ],
+  },
+  {
+    id: "the-shore",
+    slug: "the-shore",
+    title: "The Shore",
+    category: "multi-family",
+    categoryTitle: "Multi-Family",
+    location: "British Columbia",
+    type: "Multi-Family",
+    description:
+      "A multi-family exterior painting project completed with attention to building presentation, surface preparation, and consistent finished results.",
+    coverImage:
+      "/images/projects/multi-family/The-Shore-Exterior-Painting-Construction-Crestlinepainting.jpg",
+    images: [
+      {
+        src: "/images/projects/multi-family/The-Shore-Exterior-Painting-Construction-Crestlinepainting.jpg",
+        alt: "The Shore exterior painting project by Crestline Painting",
+      },
+      {
+        src: "/images/projects/multi-family/The-Shore-Exterior-Painting-Construction-Crestlinepainting0.jpg",
+        alt: "The Shore multi-family exterior painting by Crestline Painting",
+      },
+    ],
+  },
+  {
+    id: "fantom-tower-white-rock",
+    slug: "fantom-tower-white-rock",
+    title: "Fantom Tower White Rock",
+    category: "multi-family",
+    categoryTitle: "Multi-Family",
+    location: "White Rock, BC",
+    type: "Multi-Family",
+    description:
+      "A residential tower painting project focused on exterior presentation, professional execution, and high-visibility multi-family property work.",
+    coverImage:
+      "/images/projects/multi-family/Fantom-Tower-White-Rock-Crestline-Painting.jpg",
+    images: [
+      {
+        src: "/images/projects/multi-family/Fantom-Tower-White-Rock-Crestline-Painting.jpg",
+        alt: "Fantom Tower White Rock painting project by Crestline Painting",
+      },
+    ],
+  },
+  {
+    id: "acorn-multi-family",
+    slug: "acorn-multi-family",
+    title: "Acorn Multi-Family",
+    category: "multi-family",
+    categoryTitle: "Multi-Family",
+    location: "British Columbia",
+    type: "Multi-Family",
+    description:
+      "A multi-family painting project involving exterior and interior painting support, with a focus on durability, presentation, and clean completed results.",
+    coverImage:
+      "/images/projects/multi-family/Acorn-Multi-Family-Crestline-painting-Exterior-Interior.jpg",
+    images: [
+      {
+        src: "/images/projects/multi-family/Acorn-Multi-Family-Crestline-painting-Exterior-Interior.jpg",
+        alt: "Acorn multi-family exterior and interior painting by Crestline Painting",
+      },
+    ],
+  },
+  {
+    id: "block-multi-family",
+    slug: "block-multi-family",
+    title: "Block Multi-Family",
+    category: "multi-family",
+    categoryTitle: "Multi-Family",
+    location: "British Columbia",
+    type: "Multi-Family",
+    description:
+      "A multi-family painting project completed with attention to exterior and interior surfaces, property presentation, and organized project delivery.",
+    coverImage:
+      "/images/projects/multi-family/Block-Multi-Family-Crestline-Painting-Exterior-Interior.jpg",
+    images: [
+      {
+        src: "/images/projects/multi-family/Block-Multi-Family-Crestline-Painting-Exterior-Interior.jpg",
+        alt: "Block multi-family painting project by Crestline Painting",
+      },
+    ],
+  },
+  {
+    id: "richmond-mid-rise",
+    slug: "richmond-mid-rise",
+    title: "Richmond Mid-Rise",
+    category: "multi-family",
+    categoryTitle: "Multi-Family",
+    location: "Richmond, BC",
+    type: "Multi-Family",
+    description:
+      "A mid-rise multi-family painting project focused on exterior and interior building presentation, coordinated execution, and consistent finish quality.",
+    coverImage:
+      "/images/projects/multi-family/Richmond-Mid-Rise-Crestline-Painting-Exterior-Interior-Multi-Family.jpg",
+    images: [
+      {
+        src: "/images/projects/multi-family/Richmond-Mid-Rise-Crestline-Painting-Exterior-Interior-Multi-Family.jpg",
+        alt: "Richmond mid-rise multi-family painting project by Crestline Painting",
+      },
+    ],
+  },
+  {
+    id: "bordeaux-soltara",
+    slug: "bordeaux-soltara",
+    title: "Bordeaux Soltara",
+    category: "multi-family",
+    categoryTitle: "Multi-Family",
+    location: "British Columbia",
+    type: "Multi-Family",
+    description:
+      "A multi-family painting project focused on exterior and interior finishes, professional presentation, and clean execution across a residential property.",
+    coverImage:
+      "/images/projects/multi-family/Bordeaux-Soltara-Multi-Family-Crestline-Painting-Exterior-Interior.jpg",
+    images: [
+      {
+        src: "/images/projects/multi-family/Bordeaux-Soltara-Multi-Family-Crestline-Painting-Exterior-Interior.jpg",
+        alt: "Bordeaux Soltara multi-family painting project by Crestline Painting",
       },
     ],
   },
