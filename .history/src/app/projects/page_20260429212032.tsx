@@ -30,7 +30,7 @@ export default function ProjectsPage() {
           eyebrow="Project Gallery"
           title="A portfolio built across custom homes, multi-family, strata, and commercial projects."
           copy="Explore Crestline Painting project galleries organized by project type. This page is designed to act as a clear portfolio and visual resume for the work behind the company."
-          backgroundImage="/images/projects/Crestline-Painting-Interior-Exterior-site-photo.jpg"
+          backgroundImage="/images/projects/projects-hero.jpg"
           backgroundPosition="center center"
           darkOverlay
         />

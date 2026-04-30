@@ -2422,6 +2422,7 @@ button {
   font-weight: 800;
   border-bottom: 1px solid rgba(18, 104, 179, 0.24);
 }
+
 /* =========================================
    RESPONSIVE
    ========================================= */
@@ -2487,8 +2488,7 @@ button {
 }
 
 @media (max-width: 1024px) {
-  .project-showcase-grid,
-  .project-category-grid {
+  .project-showcase-grid {
     grid-template-columns: 1fr;
   }
 
@@ -2496,19 +2496,42 @@ button {
   .project-showcase-card--offset:hover {
     transform: none;
   }
-
-  .project-gallery-card {
-    grid-template-columns: 1fr;
-  }
-
-  .project-gallery-card__cover {
-    min-height: 320px;
-  }
 }
 
 @media (max-width: 860px) {
   .container {
     width: min(calc(100% - 32px), var(--container));
+  }
+
+    .project-category-grid,
+  .project-gallery-card,
+  .project-gallery-card__images,
+  .project-category-topbar {
+    grid-template-columns: 1fr;
+  }
+
+  .project-category-topbar {
+    align-items: stretch;
+  }
+
+  .project-category-topbar .button {
+    width: 100%;
+  }
+
+  .project-category-card__media {
+    height: 240px;
+  }
+
+  .project-gallery-card__cover {
+    min-height: 260px;
+  }
+
+  .project-gallery-card__body {
+    padding: 22px;
+  }
+
+  .project-gallery-card__image {
+    height: 220px;
   }
 
   .section {
@@ -2670,40 +2693,8 @@ button {
   .service-proof-strip,
   .services-proof-strip__grid,
   .contact-details__grid,
-  .site-footer__grid,
-  .project-category-grid,
-  .project-gallery-card,
-  .project-gallery-card__images,
-  .project-category-topbar {
+  .site-footer__grid {
     grid-template-columns: 1fr;
-  }
-
-  .project-category-topbar {
-    align-items: stretch;
-  }
-
-  .project-category-topbar .button {
-    width: 100%;
-  }
-
-  .project-category-card__media {
-    height: 240px;
-  }
-
-  .project-category-card__body {
-    padding: 22px;
-  }
-
-  .project-gallery-card__cover {
-    min-height: 260px;
-  }
-
-  .project-gallery-card__body {
-    padding: 22px;
-  }
-
-  .project-gallery-card__image {
-    height: 220px;
   }
 
   .form-panel,
@@ -2837,8 +2828,7 @@ button {
   }
 
   .home-projects-preview__intro,
-  .projects-showcase-section__intro,
-  .projects-gallery-section__intro {
+  .projects-showcase-section__intro {
     padding-left: 20px;
     margin-bottom: 28px;
   }
@@ -2901,21 +2891,6 @@ button {
 
   .site-header__right .site-header__cta {
     width: 100%;
-  }
-
-  .project-category-card__media,
-  .project-showcase-card__image,
-  .project-card__image,
-  .service-card__media {
-    height: 210px;
-  }
-
-  .project-gallery-card__cover {
-    min-height: 230px;
-  }
-
-  .project-gallery-card__image {
-    height: 200px;
   }
 }
 
