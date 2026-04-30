@@ -97,9 +97,9 @@ export const services = [
     image:
       "/images/services/South-Surrey-Commercial-Paint-Exterior-Painting-Crestline-Painting-Construction.jpg",
     detailImage:
-      "/images/services/South-Surrey-Commercial-Paint-Exterior-Painting-Crestline-Painting-Construction.jpg",
+      "/images/services/South-Surrey-Commercial-Paint-Exterior-Painting-Construction.jpg",
     galleryImages: [
-      "/images/services/South-Surrey-Commercial-Paint-Exterior-Painting-Crestline-Painting-Construction.jpg",
+      "/images/services/South-Surrey-Commercial-Paint-Exterior-Painting-Construction.jpg",
     ],
   },
 ] as const satisfies ServiceItem[];

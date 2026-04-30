@@ -5,11 +5,10 @@ import { useMemo, useState } from "react";
 import { services, type ServiceItem } from "@/data/services";
 
 const HOME_SERVICE_ORDER = [
-  "interior-painting",
   "multi-family",
   "custom-homes",
-  "commercial-painting",
-  "strata-building-maintenance",
+  "strata",
+  "commercial",
 ] as const;
 
 export default function HomeHero() {
@@ -18,16 +17,12 @@ export default function HomeHero() {
       services.map((service) => [service.slug, service] as const)
     );
 
-    const ordered = HOME_SERVICE_ORDER.map((slug) =>
-      bySlug.get(slug)
-    ).filter((value): value is ServiceItem => Boolean(value));
-
-    return ordered.length > 0 ? ordered : services;
+    return HOME_SERVICE_ORDER.map((slug) => bySlug.get(slug)).filter(
+      (value): value is ServiceItem => Boolean(value)
+    );
   }, []);
 
-  const [activeSlug, setActiveSlug] = useState<string>(
-    orderedServices[0]?.slug ?? services[0]?.slug ?? ""
-  );
+  const [activeSlug, setActiveSlug] = useState<string>("multi-family");
 
   const activeService =
     orderedServices.find((service) => service.slug === activeSlug) ??
@@ -37,13 +32,13 @@ export default function HomeHero() {
 
   return (
     <section className="home-services-hero" aria-label="Featured services">
-
-      {/* BACKGROUND (crossfade ready) */}
       <div
         key={activeService.slug}
         className="home-services-hero__bg"
         style={{
-          backgroundImage: `url("${activeService.detailImage || activeService.image}")`,
+          backgroundImage: `url("${
+            activeService.detailImage || activeService.image
+          }")`,
         }}
       />
 
@@ -51,7 +46,6 @@ export default function HomeHero() {
 
       <div className="home-services-hero__inner">
         <div className="container">
-
           <div className="home-services-hero__grid">
             {orderedServices.map((service) => {
               const isActive = service.slug === activeSlug;
@@ -65,6 +59,7 @@ export default function HomeHero() {
                   }`}
                   onMouseEnter={() => setActiveSlug(service.slug)}
                   onFocus={() => setActiveSlug(service.slug)}
+                  aria-label={`View ${service.title} service details`}
                 >
                   <div className="home-service-column__content">
                     <h2 className="home-service-column__title">
@@ -85,11 +80,14 @@ export default function HomeHero() {
           </div>
 
           <div className="home-services-hero__mobile-actions">
-            <Link href="/services" className="site-header__cta">
+            <Link
+              href="/services"
+              className="site-header__cta"
+              aria-label="View all Crestline Painting services"
+            >
               View All Services
             </Link>
           </div>
-
         </div>
       </div>
     </section>
