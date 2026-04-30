@@ -260,14 +260,14 @@ export const projects: ProjectItem[] = [
     description:
       "A custom estate painting project completed with attention to finish quality, detailed preparation, and strong residential presentation.",
     coverImage:
-      "/images/projects/custom-homes/SouthBourough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior1.jpg",
+      "/images/projects/custom-homes/SouthBorough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior.jpeg",
     images: [
       {
-        src: "/images/projects/custom-homes/SouthBourough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior0.jpg",
+        src: "/images/projects/custom-homes/SouthBourough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior0.jpeg",
         alt: "SouthBorough Estate custom home painting project by Crestline Painting",
       },
       {
-        src: "/images/projects/custom-homes/SouthBourough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior.jpeg",
+        src: "/images/projects/custom-homes/SouthBourough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior.jpg",
         alt: "SouthBorough Estate custom home painting detail by Crestline Painting",
       },
       {
@@ -440,10 +440,10 @@ export const projects: ProjectItem[] = [
     description:
       "A multi-family painting project focused on exterior and interior finishes, professional presentation, and clean execution across a residential property.",
     coverImage:
-      "/images/projects/multi-family/Bordeaux-Soltara-Multi-Family-Crestline-Painting-Exterior-Inetrior.jpg",
+      "/images/projects/multi-family/Bordeaux-Soltara-Multi-Family-Crestline-Painting-Exterior-Interior.jpg",
     images: [
       {
-        src: "/images/projects/multi-family/Bordeaux-Soltara-Multi-Family-Crestline-Painting-Exterior-Inetrior.jpg",
+        src: "/images/projects/multi-family/Bordeaux-Soltara-Multi-Family-Crestline-Painting-Exterior-Interior.jpg",
         alt: "Bordeaux Soltara multi-family painting project by Crestline Painting",
       },
     ],

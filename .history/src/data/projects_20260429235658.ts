@@ -440,10 +440,10 @@ export const projects: ProjectItem[] = [
     description:
       "A multi-family painting project focused on exterior and interior finishes, professional presentation, and clean execution across a residential property.",
     coverImage:
-      "/images/projects/multi-family/Bordeaux-Soltara-Multi-Family-Crestline-Painting-Exterior-Inetrior.jpg",
+      "/images/projects/multi-family/Bordeaux-Soltara-Multi-Family-Crestline-Painting-Exterior-Interior.jpg",
     images: [
       {
-        src: "/images/projects/multi-family/Bordeaux-Soltara-Multi-Family-Crestline-Painting-Exterior-Inetrior.jpg",
+        src: "/images/projects/multi-family/Bordeaux-Soltara-Multi-Family-Crestline-Painting-Exterior-Interior.jpg",
         alt: "Bordeaux Soltara multi-family painting project by Crestline Painting",
       },
     ],

@@ -59,7 +59,7 @@ export const projectCategories: ProjectCategory[] = [
     description:
       "Explore Crestline Painting strata projects, including shared properties, exterior repainting, common areas, building maintenance, and property-focused painting work.",
     image:
-      "/images/projects/strata/York-Langley-Strata-Townhouse-Crestline-Painting.jpg",
+      "/images/services/Vancouver-Painting-Crestline-Painting-Construction-Interior-Exterior-Strata.jpg",
   },
   {
     slug: "commercial",
@@ -260,22 +260,22 @@ export const projects: ProjectItem[] = [
     description:
       "A custom estate painting project completed with attention to finish quality, detailed preparation, and strong residential presentation.",
     coverImage:
-      "/images/projects/custom-homes/SouthBourough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior1.jpg",
+      "/images/projects/custom-homes/SouthBorough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior.jpeg",
     images: [
       {
-        src: "/images/projects/custom-homes/SouthBourough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior0.jpg",
+        src: "/images/projects/custom-homes/SouthBorough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior.jpeg",
         alt: "SouthBorough Estate custom home painting project by Crestline Painting",
       },
       {
-        src: "/images/projects/custom-homes/SouthBourough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior.jpeg",
+        src: "/images/projects/custom-homes/SouthBorough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior0.jpg",
         alt: "SouthBorough Estate custom home painting detail by Crestline Painting",
       },
       {
-        src: "/images/projects/custom-homes/SouthBourough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior1.jpg",
+        src: "/images/projects/custom-homes/SouthBorough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior (2).jpg",
         alt: "SouthBorough Estate interior painting by Crestline Painting",
       },
       {
-        src: "/images/projects/custom-homes/SouthBourough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior2.jpg",
+        src: "/images/projects/custom-homes/SouthBorough-Estate-Painting-Construction-CrestlinePainting-Interior-Exterior (3).jpg",
         alt: "SouthBorough Estate finished painting work by Crestline Painting",
       },
     ],
@@ -440,115 +440,30 @@ export const projects: ProjectItem[] = [
     description:
       "A multi-family painting project focused on exterior and interior finishes, professional presentation, and clean execution across a residential property.",
     coverImage:
-      "/images/projects/multi-family/Bordeaux-Soltara-Multi-Family-Crestline-Painting-Exterior-Inetrior.jpg",
+      "/images/projects/multi-family/Bordeaux-Soltara-Multi-Family-Crestline-Painting-Exterior-Interior.jpg",
     images: [
       {
-        src: "/images/projects/multi-family/Bordeaux-Soltara-Multi-Family-Crestline-Painting-Exterior-Inetrior.jpg",
+        src: "/images/projects/multi-family/Bordeaux-Soltara-Multi-Family-Crestline-Painting-Exterior-Interior.jpg",
         alt: "Bordeaux Soltara multi-family painting project by Crestline Painting",
       },
     ],
   },
   {
-    id: "mcnair-north-vancouver",
-    slug: "mcnair-north-vancouver",
-    title: "McNair North Vancouver",
-    category: "strata",
-    categoryTitle: "Strata",
-    location: "North Vancouver, BC",
-    type: "Strata",
-    description:
-      "A strata exterior painting project completed with attention to surface preparation, property presentation, and long-term building appearance.",
-    coverImage:
-      "/images/projects/strata/McNair-North-Vancouver-Crestline-Painting-Exterior.jpg",
-    images: [
-      {
-        src: "/images/projects/strata/McNair-North-Vancouver-Crestline-Painting-Exterior.jpg",
-        alt: "McNair North Vancouver strata exterior painting by Crestline Painting",
-      },
-      {
-        src: "/images/projects/strata/McNair-North-Vancouver-Crestline-Painting-Exterior0.jpg",
-        alt: "McNair North Vancouver strata painting project by Crestline Painting",
-      },
-    ],
-  },
-  {
-    id: "sandhurst-south-surrey-townhouse-complex",
-    slug: "sandhurst-south-surrey-townhouse-complex",
-    title: "Sandhurst South Surrey Townhouse Complex",
-    category: "strata",
-    categoryTitle: "Strata",
-    location: "South Surrey, BC",
-    type: "Strata",
-    description:
-      "A townhouse complex painting project focused on consistent exterior finishes, organized coordination, and professional strata property presentation.",
-    coverImage:
-      "/images/projects/strata/Sandhurst-South-Surrey-townhouse-complex-Painting-Crestline-Painting.jpg",
-    images: [
-      {
-        src: "/images/projects/strata/Sandhurst-South-Surrey-townhouse-complex-Painting-Crestline-Painting.jpg",
-        alt: "Sandhurst South Surrey townhouse complex painting by Crestline Painting",
-      },
-      {
-        src: "/images/projects/strata/Sandhurst-South-Surrey-townhouse-complex-Painting-Crestline-Painting0.jpg",
-        alt: "Sandhurst South Surrey strata townhouse painting by Crestline Painting",
-      },
-    ],
-  },
-  {
-    id: "shaughnessy-place-vancouver",
-    slug: "shaughnessy-place-vancouver",
-    title: "Shaughnessy Place Vancouver",
+    id: "vancouver-strata-project",
+    slug: "vancouver-strata-project",
+    title: "Vancouver Strata Project",
     category: "strata",
     categoryTitle: "Strata",
     location: "Vancouver, BC",
     type: "Strata",
     description:
-      "A strata property painting project completed with attention to exterior appearance, coordinated execution, and long-term building presentation.",
+      "A strata-focused painting project supporting long-term property presentation, exterior coating work, and organized building maintenance.",
     coverImage:
-      "/images/projects/strata/Shaughnessy-Place-Vancouver-Crestline-Painting.jpg",
+      "/images/services/Vancouver-Painting-Crestline-Painting-Construction-Interior-Exterior-Strata.jpg",
     images: [
       {
-        src: "/images/projects/strata/Shaughnessy-Place-Vancouver-Crestline-Painting.jpg",
-        alt: "Shaughnessy Place Vancouver strata painting by Crestline Painting",
-      },
-      {
-        src: "/images/projects/strata/Shaughnessy-Place-Vancouver-Crestline-Painting0.jpg",
-        alt: "Shaughnessy Place Vancouver painting project by Crestline Painting",
-      },
-      {
-        src: "/images/projects/strata/Shaughnessy-Place-Vancouver-Crestline-Painting1.jpg",
-        alt: "Shaughnessy Place Vancouver strata exterior painting by Crestline Painting",
-      },
-      {
-        src: "/images/projects/strata/Shaughnessy-Place-Vancouver-Crestline-Painting2.jpg",
-        alt: "Shaughnessy Place Vancouver finished painting work by Crestline Painting",
-      },
-    ],
-  },
-  {
-    id: "york-langley-strata-townhouse",
-    slug: "york-langley-strata-townhouse",
-    title: "York Langley Strata Townhouse",
-    category: "strata",
-    categoryTitle: "Strata",
-    location: "Langley, BC",
-    type: "Strata",
-    description:
-      "A strata townhouse painting project focused on exterior presentation, finish consistency, and clean execution across a residential property.",
-    coverImage:
-      "/images/projects/strata/York-Langley-Strata-Townhouse-Crestline-Painting.jpg",
-    images: [
-      {
-        src: "/images/projects/strata/York-Langley-Strata-Townhouse-Crestline-Painting.jpg",
-        alt: "York Langley strata townhouse painting by Crestline Painting",
-      },
-      {
-        src: "/images/projects/strata/York-Langley-Strata-Townhouse-Crestline-Painting0.jpg",
-        alt: "York Langley strata townhouse exterior painting by Crestline Painting",
-      },
-      {
-        src: "/images/projects/strata/York-Langley-Strata-Townhouse-Crestline-Painting1.jpg",
-        alt: "York Langley strata townhouse finished painting work by Crestline Painting",
+        src: "/images/services/Vancouver-Painting-Crestline-Painting-Construction-Interior-Exterior-Strata.jpg",
+        alt: "Vancouver strata painting project by Crestline Painting",
       },
     ],
   },
