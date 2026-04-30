@@ -12,11 +12,8 @@ type ServiceItem = {
   slug: string;
   title: string;
   short: string;
-  intro: string;
-  bullets: string[];
   image: string;
   detailImage?: string;
-  galleryImages?: string[];
 };
 
 type ServiceDetail = {
@@ -39,29 +36,30 @@ const typedServices = services as readonly ServiceItem[];
 
 const serviceDetails: ServiceDetail[] = [
   {
-    slug: "custom-homes",
+    slug: "interior-painting",
     overview:
-      "Crestline Painting works on custom home painting projects where preparation, detail, and presentation matter. These projects require a refined approach to surfaces, finishes, trim, architectural features, and the overall look of the home.",
+      "Crestline Painting provides clean, detailed interior painting for residential, commercial, and occupied spaces. The work is planned around preparation, surface protection, clean lines, and a finish standard that supports both appearance and long-term durability.",
     highlights: [
-      "Interior and exterior painting for high-end custom homes",
-      "Detailed preparation for trim, feature areas, walls, ceilings, and architectural surfaces",
-      "Refined finish work suited to designer-led and custom residential spaces",
-      "Professional presentation for premium homes and client-facing environments",
+      "Interior walls, ceilings, trim, doors, and detailed finish areas",
+      "Careful preparation, masking, patching, sanding, and surface protection",
+      "Clean jobsite practices for occupied homes, offices, and active spaces",
+      "Professional finish quality for residential, commercial, and custom environments",
     ],
     sidePanel: [
       {
         label: "Best For",
         value:
-          "Custom homes, luxury interiors, detailed repaints, and premium residential projects.",
+          "Homes, offices, occupied spaces, custom interiors, and detailed finish work.",
       },
       {
         label: "Project Focus",
         value:
-          "Craftsmanship, detail, surface preparation, and refined presentation.",
+          "Preparation, clean lines, surface protection, and consistent finish quality.",
       },
       {
         label: "Delivery Standard",
-        value: "Clean, careful, and built around a high-end finished result.",
+        value:
+          "Organized, respectful, and built around a clean professional result.",
       },
     ],
   },
@@ -94,35 +92,35 @@ const serviceDetails: ServiceDetail[] = [
     ],
   },
   {
-    slug: "strata",
+    slug: "custom-homes",
     overview:
-      "Crestline Painting supports strata and building maintenance projects with a focus on long-term asset presentation, surface protection, and organized painting support for occupied buildings and shared properties.",
+      "Crestline Painting works on custom home painting projects where preparation, detail, and presentation matter. These projects require a refined approach to surfaces, finishes, trim, architectural features, and the overall look of the home.",
     highlights: [
-      "Painting and maintenance support for strata properties and shared buildings",
-      "Exterior and interior repainting for common areas, corridors, entries, and building surfaces",
-      "Planning suited for occupied properties, residents, managers, and strata councils",
-      "Long-term presentation, protection, and professional property upkeep",
+      "Interior and exterior painting for high-end custom homes",
+      "Detailed preparation for trim, feature areas, walls, ceilings, and architectural surfaces",
+      "Refined finish work suited to designer-led and custom residential spaces",
+      "Professional presentation for premium homes and client-facing environments",
     ],
     sidePanel: [
       {
         label: "Best For",
         value:
-          "Strata properties, occupied buildings, shared spaces, and building maintenance projects.",
+          "Custom homes, luxury interiors, detailed repaints, and premium residential projects.",
       },
       {
         label: "Project Focus",
         value:
-          "Property presentation, surface protection, coordination, and resident-aware execution.",
+          "Craftsmanship, detail, surface preparation, and refined presentation.",
       },
       {
         label: "Delivery Standard",
         value:
-          "Professional, organized, and respectful of active building environments.",
+          "Clean, careful, and built around a high-end finished result.",
       },
     ],
   },
   {
-    slug: "commercial",
+    slug: "commercial-painting",
     overview:
       "Crestline Painting provides commercial painting services for offices, retail spaces, tenant improvements, institutions, and industrial environments. The work is built around practical coordination, durability, clean execution, and professional presentation.",
     highlights: [
@@ -146,6 +144,34 @@ const serviceDetails: ServiceDetail[] = [
         label: "Delivery Standard",
         value:
           "Organized commercial workflow with dependable communication and finish quality.",
+      },
+    ],
+  },
+  {
+    slug: "strata-building-maintenance",
+    overview:
+      "Crestline Painting supports strata and building maintenance projects with a focus on long-term asset presentation, surface protection, and organized painting support for occupied buildings and shared properties.",
+    highlights: [
+      "Painting and maintenance support for strata properties and shared buildings",
+      "Exterior and interior repainting for common areas, corridors, entries, and building surfaces",
+      "Planning suited for occupied properties, residents, managers, and strata councils",
+      "Long-term presentation, protection, and professional property upkeep",
+    ],
+    sidePanel: [
+      {
+        label: "Best For",
+        value:
+          "Strata properties, occupied buildings, shared spaces, and building maintenance projects.",
+      },
+      {
+        label: "Project Focus",
+        value:
+          "Property presentation, surface protection, coordination, and resident-aware execution.",
+      },
+      {
+        label: "Delivery Standard",
+        value:
+          "Professional, organized, and respectful of active building environments.",
       },
     ],
   },
