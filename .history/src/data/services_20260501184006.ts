@@ -54,7 +54,7 @@ export const services = [
     image:
       "/images/services/W42Residence-Custom-Interior-Crestline-Painting-Construction-Exterior-Painting.jpg",
     homeHeroImage:
-      "/images/services/Andover-Mansion-Project-Construction-Painting-Interior-Exterior-CrestlinePainting3.jpg",
+      "/images/services/W42Residence-Custom-Interior-Crestline-Painting-Construction-Exterior-Painting.jpg",
     detailImage:
       "/images/services/W42Residence-Custom-Interior-Crestline-Painting-Construction-Exterior-Painting.jpg",
     galleryImages: [
@@ -79,7 +79,7 @@ export const services = [
     image:
       "/images/services/Vancouver-Painting-Crestline-Painting-Construction-Interior-Exterior-Strata.jpg",
     homeHeroImage:
-      "/images/services/Sandhurst-South-Surrey-townhouse-complex-Painting-Crestline-Painting.jpg",
+      "/images/services/Vancouver-Painting-Crestline-Painting-Construction-Interior-Exterior-Strata.jpg",
     detailImage:
       "/images/services/Vancouver-Painting-Crestline-Painting-Construction-Interior-Exterior-Strata.jpg",
     galleryImages: [
@@ -104,7 +104,7 @@ export const services = [
     image:
       "/images/services/South-Surrey-Commercial-Paint-Exterior-Painting-Crestline-Painting-Construction.jpg",
     homeHeroImage:
-      "/images/services/Vancouver-Warehouse-Crestline-Painting-Exterior-Commercial-Construction0.jpg",
+      "/images/services/South-Surrey-Commercial-Paint-Exterior-Painting-Crestline-Painting-Construction.jpg",
     detailImage:
       "/images/services/South-Surrey-Commercial-Paint-Exterior-Painting-Crestline-Painting-Construction.jpg",
     galleryImages: [
